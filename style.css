@@ -1,0 +1,169 @@
+@import url(https://fonts.google.com/specimen/Bai+Jamjuree);
+
+:root{
+    --font-size: 18px;
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: "Bai-Jamjuree",sans-serif ;
+    height: 100vh;
+}
+.header{
+    background-image: url(bg-header-desktop.png) ;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    text-align: center;
+    gap: 30px;
+    
+}
+.header .header-content{
+    text-align: center;
+    width: 800px;
+}
+.header h2{
+    padding-bottom: 14px;
+    color:var(--Dark-Grayish-Blue);
+    font-size: xx-large;
+    
+    
+}
+.header p{
+    font-size: var(--font-size);
+    color:var(--Grayish-Blue);
+
+}
+.header img{
+   
+    height: 100px;
+    width: 100px;
+
+}
+.header .header-button button{
+    padding: 12PX;
+    border-radius: 500PX;
+    border: hidden;
+    color: white;
+    margin: 6PX;
+}
+
+.header .header-button :first-child{
+    box-shadow: 0px 6px 5px 0px rgba(41, 200, 150, 0.16);
+    background-color: var(--Strong-Cyan);
+}
+.header .header-button :nth-child(2){
+    box-shadow: 0px 6px 5px 0px rgba(52, 68, 136, 0.16);
+    background-color: var(--Light-Blue);
+}
+/* snippets */
+.snippets{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 700px;
+   align-items: center;
+   margin-left: 22%;
+   
+}
+
+.snippets h3{
+    padding-bottom: 18px;
+    padding-top: 90px;
+    font-size: 29px;
+    color:var(--Dark-Grayish-Blue); 
+}
+.snippets p{
+    font-size:var(--font-size) ;
+    padding-bottom: 80px;
+    color:var(--Grayish-Blue);
+
+}
+
+/* features */
+.features{
+    display: flex;
+    
+
+}
+.features .pic2{
+    margin-right: 100px;
+    height: 100vh;
+}
+.features .pic2 img{
+    width:550px ;
+    height:450px ;
+}
+.features .feature-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 350px;
+    
+    
+
+}
+.features .feature-content .feature-items{
+}
+.features .feature-content .feature-items h4{
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: var(--Dark-Grayish-Blue);
+    
+    
+    
+}
+.features .feature-content .feature-items p{
+font-size: var(--font-size);
+color: var(--Grayish-Blue);
+}
+
+/* clipboard */
+
+.section3{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    align-items: center;
+}
+.section3 .clipboard{
+   
+    width: 700px;
+    
+    
+}
+ 
+.section3 .clipboard h3{
+    padding-bottom: 18px;
+    
+    font-size: 29px;
+    color:var(--Dark-Grayish-Blue); 
+}
+.section3 .clipboard p{
+    font-size:var(--font-size) ;
+    padding-bottom: 80px;
+    color:var(--Grayish-Blue);
+}
+.section3 .pic3 img{
+}
+
+
+
+
+
+
+
+
